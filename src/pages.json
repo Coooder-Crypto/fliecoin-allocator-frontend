@@ -1,0 +1,84 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Filecoin存储分配器"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录授权"
+			}
+		},
+		{
+			"path": "pages/kyc/index",
+			"style": {
+				"navigationBarTitleText": "身份验证"
+			}
+		},
+		{
+			"path": "pages/dashboard/index",
+			"style": {
+				"navigationBarTitleText": "控制面板"
+			}
+		},
+		{
+			"path": "pages/upload/index",
+			"style": {
+				"navigationBarTitleText": "文件上传"
+			}
+		},
+		{
+			"path": "pages/storage/index",
+			"style": {
+				"navigationBarTitleText": "文件存储"
+			}
+		},
+		{
+			"path": "pages/file-detail/index",
+			"style": {
+				"navigationBarTitleText": "文件详情"
+			}
+		},
+		{
+			"path": "pages/terms/index",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		},
+		{
+			"path": "pages/privacy/index",
+			"style": {
+				"navigationBarTitleText": "隐私政策"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "Filecoin存储分配器",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/dashboard/index",
+				"text": "控制面板"
+			},
+			{
+				"pagePath": "pages/upload/index",
+				"text": "上传"
+			},
+			{
+				"pagePath": "pages/storage/index",
+				"text": "存储"
+			}
+		]
+	}
+}
